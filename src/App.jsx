@@ -1,7 +1,6 @@
-import { Route, Routes } from "react-router-dom"
+
 // import Landing from "./pages/Landing"
-import Component from "./component/Component"
-import Container from "./component/Container"
+// import Component from "./component/Component"
 import Header from "./component/Header"
 import Jumbotron from "./component/Jumbotron"
 import MyProject from "./component/MyProject"

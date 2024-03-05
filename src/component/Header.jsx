@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import containerCSS from '../component/Component.module.css'
-import me from "../assets/asu.png";
 import logo from '../assets/text.png'
 
 const Header = () => {
