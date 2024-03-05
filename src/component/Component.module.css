@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 200vh;
+  background: white;
+  background-image: url("../assets/annie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlogo {
+  margin-left: 50px;
+}
+
+.navlogo > h1 > span {
+  color: coral;
+}
+
+.navitems {
+  display: flex;
+  margin-right: 50px;
+  gap: 40px;
+  align-items: center;
+}
+
+.gridSatu {
+  font-family: "Marhey", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: brown;
+  position: sticky;
+  top: 0;
+  text-shadow: 10px 8px 10px rgba(0, 0, 0, 0.47);
+}
+.gridDua {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 75vh;
+}
+
+.leftGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridTiga {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 65vh;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 120px;
+}
+
+.project > div > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 20px 15px 8px 0px rgba(17, 31, 27, 0.59);
+  -webkit-box-shadow: 20px 15px 8px 0px rgba(17, 31, 27, 0.59);
+  -moz-box-shadow: 20px 15px 8px 0px rgba(17, 31, 27, 0.59);
+}
+
+.gridTiga > div > h1 {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 10px;
+  color: brown;
+  text-shadow: 10px 8px 10px rgba(0, 0, 0, 0.47);
+}
+
+.gridEmpat {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 50vh;
+}
+
+.gridEmpat > div > h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  color: brown;
+  text-shadow: 10px 8px 10px rgba(0, 0, 0, 0.47);
+}
+
+.gridLima {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: grey;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  bottom: 0;
+}
+
+.box {
+  background-image: url("../assets/asu.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: 250px;
+  width: 275px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+  -webkit-box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+  -moz-box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+}
+
+.box > h4 {
+  color: red;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.box > h3 {
+  color: red;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.aboutMe > h1 {
+  font-family: "Marhey", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  text-shadow: 10px 8px 10px rgba(0, 0, 0, 0.47);
+}
+
+.aboutMe > h4 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  margin-bottom: 12px;
+  color: red;
+}
+
+.aboutMe > p {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+.box > img {
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  width: 120px;
+  height: 150px;
+  box-shadow: -4px 4px 32px -1px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: -4px 4px 32px -1px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: -4px 4px 32px -1px rgba(0, 0, 0, 0.77);
+}
+
+.box {
+  text-align: center;
+}
+
+.aboutMe {
+  width: 400px;
+  height: 450px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+  height: 40vh;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.logo > div > img {
+  width: 4em;
+  height: 4em;
+  border-radius: 15px;
+  box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+  -webkit-box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+  -moz-box-shadow: 7px 6px 19px 6px rgba(17, 31, 27, 0.38);
+}
+
+.aboutMe > p > span {
+  color: red;
+  font-size: 20px;
+}
+
+.navlogo > img {
+  padding-top: 15px;
+  padding-left: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.navitems > h3:hover {
+  cursor: pointer;
+  color: lightcoral;
+  transform: rotate(10deg);
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 15px;
+}
